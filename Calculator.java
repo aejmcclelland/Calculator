@@ -21,21 +21,21 @@ public class Calculator {
     public static void addNumbers() {
         double[] numbers = getNumbers();
         double sum = numbers[0] + numbers[1];
-        System.out.println(ANSWER + numbers[0] + "+" + numbers[1] + "=" + sum);
+        System.out.println(ANSWER + numbers[0] + " + " + numbers[1] + " = " + sum);
 
     }
 
     public static void subtractNumbers() {
         double[] numbers = getNumbers();
         double difference = numbers[0] - numbers[1];
-        System.out.println(ANSWER + numbers[0] + "-" + numbers[1] + "=" + difference);
+        System.out.println(ANSWER + numbers[0] + " - " + numbers[1] + " = " + difference);
     }
 
     public static void divideNumbers() {
         double[] numbers = getNumbers();
         try {
             double quotient = numbers[0] / numbers[1];
-            System.out.println(ANSWER + numbers[0] + "/" + numbers[1] + "=" + quotient);
+            System.out.println(ANSWER + numbers[0] + " / " + numbers[1] + " = " + quotient);
         } catch (ArithmeticException e) {
             Throwable cause = e.getCause();
             if (cause instanceof ArithmeticException && cause.getMessage().equals("/ by zero")) {
@@ -49,7 +49,7 @@ public class Calculator {
     public static void multiplyNumbers() {
         double[] numbers = getNumbers();
         double product = numbers[0] * numbers[1];
-        System.out.println(ANSWER + numbers[0] + "x" + numbers[1] + "=" + product);
+        System.out.println(ANSWER + numbers[0] + " x " + numbers[1] + " = " + product);
     }
 
     public static void main(String[] args) {
