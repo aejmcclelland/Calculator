@@ -7,12 +7,12 @@ public class Calculator {
     // static field declaring scanner method
     private static final Scanner STDIN = new Scanner(System.in);
 
-    private static int[] getNumbers() {
-        int[] numbers = new int[2];
+    private static double[] getNumbers() {
+        double[] numbers = new double[2];
         System.out.println("\nFirst number: ");
-        numbers[0] = STDIN.nextInt();
+        numbers[0] = STDIN.nextDouble();
         System.out.println("\nSecond Number: ");
-        numbers[1] = STDIN.nextInt();
+        numbers[1] = STDIN.nextDouble();
         return numbers;
     }
 
