@@ -28,4 +28,3 @@ A simple calculator application that performs basic arithmetic operations, inclu
 ## Additional Notes
 
 * The calculator supports basic arithmetic operations and is intended for simple calculations.
-* For more complex calculations, consider using a scientific calculator or a comprehensive mathematics software.
